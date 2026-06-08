@@ -3,23 +3,52 @@
     <head>
         <link rel = "stylesheet" href = "styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <nav>
-            <p>Tazza<p>
-            <a>Home</a>
-            <a>Menu</a>
-            <a>Location</a>
-            <a>Contact</a>
+        <top>
+
+        </top>
+        <nav class = "nav">
+            <div class = "logo">
+                <a href = "#top">Tazza</a>
+            </div>
+            <div class = "navbar">
+                <a href = "#hero">Home</a>
+                <a href = "#menu">Menu</a>
+                <a href = "#location">Location</a>
+                <a href = "#contact">Contact</a>  
+            </div>
+            <div class = "spacer">
+
+            </div>
         </nav>
         <section id = "hero">
-            <h1>From Ancient Shores to Your Table</h1>
-            <p>100% Halal • Grilled fresh daily • Pickup in Tampa</p>
-            <button>Order Pickup Now</button>
-            <p>⭐⭐⭐⭐✨ 4.5 (1000+ reviews) | Open Daily 11:00 AM – 10:00 PM</p>
+            <div class = "headings-hero">
+                <h1>Authentic Mediterranean</h1>
+                <h1 id = "heading-mid-line">Flavors Crafted Fresh</h1>
+                <h1>Every Single Day</h1>
+            </div>
+            <div class = "subtitles-hero">
+                <p>Freshly grilled kebabs, wraps, bowls & traditional sides</p>
+                <p>100% Halal • Grilled fresh daily • Pickup in Tampa</p>
+            </div>
+            <div class = "buttons-hero">
+                <button class = "btn-hero" id = "btn-hero0"><i class="fa-solid fa-truck"></i> Order Delivery</button>
+                <button class = "btn-hero" id = "btn-hero1"><i class="fa-solid fa-utensils"></i> Reserve Table</button>
+                <button class = "btn-hero" id = "btn-hero2"><i class="fa-solid fa-bag-shopping"></i> Order Takeaway</button>
+            </div>
+            <p class = "taglines"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-solid fa-star-half"></i> 4.5 (1457 reviews) | Open Daily 11:00 AM – 10:00 PM</p>
 
-            <img src = "images/premium_photo-1670263779633-5309cae32f13.avif" alt = "Tazza's Famous Turkish Food">
+            <div class = "hero-image">
+                <img id = "hero-image-itself" src = "images/hero-turkish-image.png" alt = "Tazza's Famous Turkish Food">
+            </div>
         </section>
         <section id = "about">
             <h2>Tazza Restaurant</h2>
@@ -122,7 +151,7 @@
                 </div>
             </div>
         </section>
-        <footer>
+        <footer id = "contact">
             <div>
                 <img src = "images/tazza-logo.png">
                 <div>
